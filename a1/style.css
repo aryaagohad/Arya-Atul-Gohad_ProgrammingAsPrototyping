@@ -1,0 +1,84 @@
+/* Positioning text on Image: relative parent div tag ensures absolute values for texts are relative when placed on the image */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    font-weight:bolder;
+    font-style:italic;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    background-color: #f0f0f0;
+
+/* Creating and Defining Dimensions for the border */
+}
+.meme{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 400px;
+    height: 615px;
+    border: 4px solid #000000;
+    margin:14px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Formatting Image */
+.image {
+    width:200px;
+    height: auto;
+    object-fit: right;
+}
+
+/* Aligning text */
+.captionone{
+    position: absolute;
+    top: 50px;
+    left:490px;
+    color:#000000;
+    padding: 3px;
+    margin-top: 4px;
+    text-align:left;
+}
+.captiontwo{
+    position: absolute;
+    top: 200px;
+    left:490px;
+    color:#000000;
+    padding: 3px;
+    margin-top: 4px;
+    text-align:left;
+}
+.captionthree{
+    position: absolute;
+    top: 350px;
+    left:490px;
+    color:#000000;
+    padding: 3px;
+    margin-top: 4px;
+    text-align: left;
+}
+.captionfour{
+    position: absolute;
+    top: 500px;
+    left:490px;
+    color:#000000;
+    padding:3px;
+    margin-top: 4px;
+    text-align: left;
+}
+
+/* Aligning Internal Layout Lines */
+.line {
+    border-bottom: 4px solid #000000;
+    margin-top: 0px;
+    width: 100%;
+}
+.vline{
+    border-left: 4px solid #000000;
+    height: 610px;
+    position:absolute;
+    left: 49.5%;
+}
