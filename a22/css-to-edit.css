@@ -1,0 +1,54 @@
+/* Add your own CSS here */
+
+/* example of button being styled using the selectors assigned to it in the script.js file */
+
+header {
+    width: 100%; /* do not edit this */
+    height: 60px; /* do not edit this */
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(174, 209, 209);
+    border-bottom: 1px solid black;
+  }
+
+.buttons {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2.5px;
+}
+
+#button1 { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+/* Use your own selectors [ids(#) and classes(.) for styling the input elements created in p5]  */
+#dd{
+    background-color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   }
+#dd:hover {
+
+   background-color: rgb(205, 205, 205);
+   cursor: pointer;
+}
+.Subheadings{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 16px;
+}
+#r{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#IID{
+   background-color:rgb(240, 240, 240);
+}
+#IID2{
+   background-color: rgb(240, 240, 240);
+}
