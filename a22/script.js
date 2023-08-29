@@ -55,7 +55,7 @@ function setup() {
     function changeImage()
    {
     let choice = dropdown1.value();
-    meme = loadImage("images/"+choice+".jpeg");
+    meme = loadImage("images/"+choice+");
    }
    //stores the selection and loads it into "meme"
    dropdown1.changed(changeImage) //.changed is called when the value of a function changes
